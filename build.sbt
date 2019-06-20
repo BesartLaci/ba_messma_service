@@ -15,3 +15,7 @@ libraryDependencies ++= Seq(
   "javax.validation" % "validation-api" % "1.1.0.Final"
 )
 
+
+javaOptions in Test := Seq(
+  "-Dconfig.file=conf/test.conf"
+)
