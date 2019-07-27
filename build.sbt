@@ -12,7 +12,10 @@ libraryDependencies ++= Seq(
   evolutions,
   "mysql"   %  "mysql-connector-java" % "5.1.35",
   "org.webjars" % "swagger-ui" % "3.1.5",
-  "javax.validation" % "validation-api" % "1.1.0.Final"
+  "javax.validation" % "validation-api" % "1.1.0.Final",
+  "io.cucumber" % "cucumber-java" % "4.3.1",
+  "io.cucumber" % "cucumber-junit" % "4.3.1",
+  "io.cucumber" % "cucumber-core" % "4.3.1"
 )
 
 
